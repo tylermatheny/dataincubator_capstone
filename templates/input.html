@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+ <head>
+        <link rel="stylesheet" href="//cdn.pydata.org/bokeh/release/bokeh-1.0.2.min.css" type="text/css" />
+        <script type="text/javascript" src="//cdn.pydata.org/bokeh/release/bokeh-1.0.2.min.js"></script>
+      </head>
+    <body>
+      <div class=page>
+          <h1>Student Loan Repayment</h1>
+          <div class=metanav>
+
+          <h4>Please input your information.</h4>
+          <form id='input' method='post'> 
+            <p>
+            name: <input type='text' name='name'>
+            SAT test score: <input type = 'text' name = 'test_score'>
+            school: <input type = 'text' name = 'school'>
+            major: <input type = 'text' name = 'major'>
+            family income: <input type = 'text' name = 'family_income'>
+          </p>
+          <p>
+            Have you made progress on your loan? <input type = 'text' name = 'progress'>
+            <input type="submit" value="Submit">
+            </p>
+            <a href="plot"><iframe width="100%" height="520" frameborder="0" src="https://tmatheny1989.carto.com/builder/4ca0c052-1764-45a2-862e-e74f4c77d6ce/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></a>
+          </form>
+          </div>
+      </div> 
+  <body>
+    <p>
+    <div style="width: 20%; display: inline-block;">
+
+        {{ div3 | safe }}
+        {{ script3 | safe }}
+        </div>
+    </p>
+    <p>
+    <div style="width: 20%; display: inline-block;">
+
+        {{ div | safe }}
+        {{ script | safe }}
+
+    </div>
+    </p>  
+    <p>
+    <div style="width: 20%; display: inline-block;">
+
+        {{ div4 | safe }}
+        {{ script4 | safe }}
+    </p>
+    <p>
+    <div style="width: 20%; display: inline-block;">
+
+        {{ div2 | safe }}
+        {{ script2 | safe }}
+    </p>
+
+    </div>
+
+  </body>
+</html>

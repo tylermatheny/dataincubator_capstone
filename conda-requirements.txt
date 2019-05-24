@@ -1,0 +1,9 @@
+pandas
+flask
+scikit-learn
+scipy
+statsmodels
+matplotlib 
+numpy
+colorcet
+
